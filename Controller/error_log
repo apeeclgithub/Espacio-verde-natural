@@ -1,0 +1,6 @@
+[13-Aug-2015 15:59:25 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelInicio.php on line 6
+[13-Aug-2015 15:59:30 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelInicio.php on line 6
+[13-Aug-2015 16:00:30 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelInicio.php on line 6
+[13-Aug-2015 16:03:09 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelInicio.php on line 6
+[13-Aug-2015 16:03:52 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelRegistro.php on line 6
+[13-Aug-2015 16:04:43 America/Santiago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/apeecl/public_html/EVN2/Model/ModelRegistro.php on line 6
