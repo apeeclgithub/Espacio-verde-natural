@@ -73,7 +73,7 @@ echo "<p>".$dato2['det_cantidad']."x <span class='h1'>".$dato2['pro_nombre']."</
                                 ?>
                                     <div class="resp">
                                     <button onclick="location.href='Controller/aprobar.php?id=<?php echo $dato['ped_id'];?>'" class="acp">Aprobar</button>
-                                    <button onclick="location.href='Controller/aprobar.php?id=<?php echo $dato['ped_id'];?>'" class="acp btn-danger">Rechazar</button>
+                                    <button onclick="location.href='Controller/rechazar.php?id=<?php echo $dato['ped_id'];?>'" class="acp btn-danger">Rechazar</button>
                                     </div>
                                     <button class="md-close">Cerrar</button>
                                 </div>
