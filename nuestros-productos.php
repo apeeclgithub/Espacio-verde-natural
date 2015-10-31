@@ -60,10 +60,9 @@
             	?>
             	<div class="contenedor">
                     <h3><?php echo $dato['pro_nombre']; ?></h3>
-                    <img src="View/img/producto/<?php echo $dato['pro_img']; ?>">
+                    <img onclick="vermas('individual.php?producto=<?php echo $dato['pro_url'];?>')" src="View/img/producto/<?php echo $dato['pro_img']; ?>">
                     <div class="lorem">
-                        <p><?php echo $dato['pro_descripcion'] ?></p>
-                        <button onclick="vermas('individual.php?producto=<?php echo $dato['pro_url'];?>')">Ver más...</button>
+                        <p><span>$</span><?php echo number_format($dato['pro_valor'],0,',','.'); ?></p>
                         <button onclick="agregar(<?php echo $dato['pro_id']; ?>, 1, <?php echo $dato['pro_valor'];?>, '<?php echo $dato['pro_nombre'];?>')">Agregar</button>
                     </div>
                 </div> 

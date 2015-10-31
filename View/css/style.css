@@ -47,7 +47,7 @@ button{
     border-radius: 2px;
     padding: 12px;
     border: 1px solid transparent;
-}
+} 
 .inputs, select {
   display: block;
   height: 35px;
@@ -875,6 +875,8 @@ footer{
     margin: 5px;
     width: 235px;
     align-self: flex-end;
+    background: #fff;
+    border: 1px solid #1fa700;
 }
 .contenedor h3{
     color: #939c07;
@@ -891,32 +893,32 @@ footer{
 }
 .contenedor img{
     width: 100%;
-    height: 200px;
+    height: 250px;
+    cursor: pointer;
 }
 .contenedor .lorem{
-    padding: 25px 15px 15px;
-    min-width: 200px;
-    color: #fff;
-    background: #a56122;
-    display: block;
+    padding: 0 5px 5px;
+    color: red;
 }
 .contenedor .lorem p{
-    font-size: 14px;
-    margin-bottom: 15px;
-    height: 87px;
-    overflow: hidden;
-    text-align: justify;
+    font-size: 32px;
+    font-family: 'Roboto-Black';
+    text-align: right;
+}
+.contenedor .lorem p span{
+    font-size: 18px;
+    margin-right: 15px;
 }
 .contenedor .lorem button{
     color: #fff;
+    font-size: 16px;
     cursor: pointer;
-    padding: 5px 15px;
+    padding: 5px 5px;
     font-family: 'Roboto-Black';
     text-transform: uppercase;
     background: #a2bb39;
-}
-.contenedor .lorem button:last-child{
-    float: right;
+    width: 100%;
+    height: 40px;
 }
 
 #categorias{
