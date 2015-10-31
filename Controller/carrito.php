@@ -1,5 +1,4 @@
 <?php
-session_start();
 $carrito = new Carrito();
 
 class Carrito

@@ -36,8 +36,20 @@
             <div class="ulti">
                 <h3><?php echo $_GET['cat'];?></h3>
             </div>
+            <div id="categorias" class="contenedor nones1">
+                    <h3>Categorías</h3>
+                    <ul class="menu">
+                        <li id="menu_fem"><a href="categoria.php?cat=semillas%20feminizadas" >&#187; Semillas feminizadas</a></li>
+                        <li><a href="categoria.php?cat=semillas%20automaticas">&#187; Semillas automáticas</a></li>
+                        <li><a href="categoria.php?cat=Fertilizantes">&#187; Fertilizantes</a></li>
+                        <li><a href="categoria.php?cat=Vestuario%20y%20accesorios">&#187; Vestuario y accesorios</a></li>
+                        <li><a href="categoria.php?cat=Parafernalia">&#187; Parafernalia</a></li>
+                        <li><a href="categoria.php?cat=Cosmética">&#187; Cosmética</a></li>
+                    </ul>
+                </div>
+            
             <div class="productos">
-                <div id="categorias" class="contenedor">
+                <div id="categorias" class="contenedor nones2">
                     <h3>Categorías</h3>
                     <ul class="menu">
                         <li id="menu_fem"><a href="categoria.php?cat=semillas%20feminizadas" >&#187; Semillas feminizadas</a></li>
@@ -56,12 +68,12 @@
             	
             	do{
             	?>
-            	<div class="contenedor">
+
+                <div class="contenedor">
                     <h3><?php echo $dato['pro_nombre']; ?></h3>
-                    <img src="View/img/producto/<?php echo $dato['pro_img']; ?>">
+                    <img onclick="vermas('individual.php?producto=<?php echo $dato['pro_url'];?>')" src="View/img/producto/<?php echo $dato['pro_img']; ?>">
                     <div class="lorem">
-                        <p><?php echo $dato['pro_descripcion'] ?></p>
-                        <button onclick="vermas('individual.php?producto=<?php echo $dato['pro_url'];?>')">Ver más...</button>
+                        <p><span>$</span><?php echo number_format($dato['pro_valor'],0,',','.'); ?></p>
                         <button onclick="agregar(<?php echo $dato['pro_id']; ?>, 1, <?php echo $dato['pro_valor'];?>, '<?php echo $dato['pro_nombre'];?>')">Agregar</button>
                     </div>
                 </div> 

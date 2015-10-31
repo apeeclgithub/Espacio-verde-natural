@@ -843,10 +843,13 @@ footer{
 /*****************************************************ITEMS*/
 #productos{
     width: 100%;
-}
-.productos{
     max-width: 980px;
-    width: 100%;
+    margin: 0 auto;
+}
+.nones2{display: none}
+.productos{
+    max-width: 820px;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -874,8 +877,10 @@ footer{
 .contenedor{
     margin: 5px;
     width: 235px;
+    box-sizing: border-box;
     align-self: flex-end;
     background: #fff;
+    
     border: 1px solid #1fa700;
 }
 .contenedor h3{
@@ -886,7 +891,7 @@ footer{
     font-size: 15.56px;
     font-weight: bold;
     margin: 0 auto;
-    width: 260px;
+    width: 230px;
     padding-right: 0.6%;
     padding-bottom: 5%;
     padding-left: 1%;
@@ -924,6 +929,7 @@ footer{
 #categorias{
     height: 411px;
     box-sizing: border-box;
+    float: left
 }
 #categorias>h3{
     background: #1fa700;
@@ -1079,7 +1085,8 @@ footer{
     nav#menu>ul>li:nth-child(6){
         display: none;
     }
-    
+    .nones1{display: none}
+    .nones2{display: block}
 }
 .boleta{
     width: 500px;
