@@ -107,8 +107,8 @@ if($_SESSION['usuario'] != 'Administrador'){
                 
                 </select><br>
 
-            <label for="Descripción"><span>Descripción <small>(semillas automaticas pegar código de la tabla aquí despues de la descripción)</small></span>
-                <textarea class="inputs" name="agr_descripcion" required><?php echo $dato['pro_descripcion']?></textarea>
+            <label for="Descripción"><span>Descripción </span>
+                <textarea class="inputs" style="height: 200px;" name="agr_descripcion" required><?php echo $dato['pro_descripcion']?></textarea>
             </label><br>
                 <label>Agregue una imagen</label>
                 <input name="agr_imagen" class="inputs" type="file" required/>
