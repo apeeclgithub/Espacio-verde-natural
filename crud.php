@@ -59,7 +59,7 @@ if($_SESSION['usuario'] != 'Administrador'){
                 
                 </select><br>
 
-            <label for="Descripción"><span>Descripción <small>(semillas automaticas pegar código de la tabla aquí despues de la descripción)</small></span>
+            <label for="Descripción"><span>Descripción </span>
                 <textarea class="inputs" name="agr_descripcion" required></textarea>
             </label><br>
                 <label>Agregue una imagen</label>
