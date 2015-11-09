@@ -16,7 +16,7 @@
     }
     
     if($send){
-        $to_Email   	= "mario.meneses.a@gmail.com";
+        $to_Email   	= "ventas@espacioverdenatural.cl";
         $subject        = 'Tienes un Email de contacto desde Espacio Verde Natural';
         
         //proceed with PHP email.
